@@ -78,7 +78,7 @@ def rescue_dir(args):
             if args.no_trim:
                 arglist.append('--no-trim')
             if args.options is not None:
-                arglist.append(args.options)
+                arglist.extend(args.options.split())
             if args.n:
                 for arg in arglist:
                     print(arg + ' ', end='')
