@@ -1,4 +1,10 @@
 ## Recover an entire directory (recursively) with ```ddrescue```
+
+**Requirements:**
+```
+python3 (tested with 3.5)
+ddrescue (sudo apt install gddrescue)
+```
 **Manual:**
 ```
 usage: ddrescue_dir.py [-h] [-n] [-i] [-v] [-q] [--no-log] [--no-scrape]
