@@ -28,7 +28,9 @@ optional arguments:
 **Examples:**
 
 Rescue directory /mnt/data and save it to /home/user/data:
+
 ```./ddrescue_dir.py /mnt/data/ /home/user/```
 
 Rescue same directory, but retry reading failed sectors 10 times:
+
 ```./ddrescue_dir.py /mnt/data/ /home/user/ --options="-r 10"```
