@@ -24,7 +24,7 @@ optional arguments:
   -i                 interactive: ask for confirmation for each file
   -v                 verbose ddrescue mode
   -q                 quiet: dont display ddrescue output
-  --no-log           do not store log files (use if know what you are doing!)
+  --no-log           do not store log files (use only if you know what you are doing!)
   --no-scrape        skip the scraping phase
   --no-trim          skip the trimming phase
   --ddpath DDPATH    path to ddrescue binary (only needed if not in $PATH)

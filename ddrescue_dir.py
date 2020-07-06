@@ -17,7 +17,7 @@ def parse_args():
     parser.add_argument('-i', help='interactive: ask for confirmation for each file', action='store_true')
     parser.add_argument('-v', help='verbose ddrescue mode', action='store_true')
     parser.add_argument('-q', help='quiet: dont display ddrescue output', action='store_true')
-    parser.add_argument('--no-log', help='do not store log files (use if know what you are doing!)', action='store_true')
+    parser.add_argument('--no-log', help='do not store log files (use only if you know what you are doing!)', action='store_true')
     parser.add_argument('--no-scrape', help='skip the scraping phase', action='store_true')
     parser.add_argument('--no-trim', help='skip the trimming phase', action='store_true')
     parser.add_argument('src_dir', help='source directory')
